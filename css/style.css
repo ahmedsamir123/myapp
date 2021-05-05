@@ -1,0 +1,273 @@
+.container {
+    width:85%;
+    margin:auto;
+}
+body{
+    margin:0;
+    font-family: cursive;
+}
+.clear {
+    clear:both;
+}
+/* header section */
+.header{
+    width:100%;
+    height:70px;
+    background-color:rgb(234, 236, 233) ;
+}
+.header .logo{
+    float:left;
+}
+.header .navbar {
+    float:right;
+}
+.header .logo h2 {
+    color:#000;
+    line-height: 70px;
+    margin-top: 18px;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0;  
+}
+
+.header .navbar ul {
+    list-style: none;
+    margin-top: 24px;
+}
+.header .navbar ul li {
+    display: inline-block;
+}
+.header .navbar ul li a {
+    text-decoration: none;
+    color:#888;
+    padding:8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.header .navbar ul li a:hover {
+    color:#fff;
+}
+/* About section */
+.About {
+    background-image: url(../images/bg.jpg);
+    width:100%;
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.About p {
+    padding-top:100px;
+    margin:0;
+    text-align: center;
+    color:#fff;
+    font-size: 25px;
+    line-height: 1.8;
+    
+}
+
+.About .btn{
+    text-align: center;
+    margin-top: 30px; 
+}
+.About .btn button {
+    min-width: 150px;
+    min-height:50px;
+    font-weight: bold;
+    font-size: 20px;
+    border:0;
+    color:#ddd;
+    background-color:#000 ;
+    cursor: pointer;
+    
+}
+.About .btn button:hover {
+    background-color:#ddd ;
+    color:#000;
+    
+}
+/* Blog section */
+.blog {
+    width:100%;
+    height:800px;
+    background-color:#ddd;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  
+}
+.blog .part {
+    width:30%;
+    float:left;
+    margin-left: 18px;
+    margin-bottom: 20px;
+   
+    
+   
+}
+.blog .part p {
+    text-align: center;
+    background-color: #fff;
+    margin: 0;
+    padding-top: 20px;
+    font-size: 18px;
+    color:#888;
+}
+.blog .part img {
+    width:100%;
+}
+.blog .part .btn {
+    background-color: #fff;
+    text-align: center;
+    padding: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+.blog .part button {
+    width:100px;
+    height:40px;
+    cursor: pointer;
+    font-size: 16px;
+    border:0;
+    background-color:rgb(234, 236, 233) ;
+    color:rgb(2, 29, 56);
+    /* border-radius: 30px; */
+}
+.blog .part button:hover {
+    background-color:rgb(2, 29, 56) ;
+    color: #888;
+}
+.blog .part img:hover {
+    opacity: 0.6;
+}
+.clear {
+    clear:both;
+}
+
+/* writing section  */
+.writing {
+    width:100%;
+    height:600px;
+    background-color: rgb(2, 29, 56);
+    
+}
+.writing .section {
+    width:44%;
+    height:150px;
+    float:left;
+    padding-left:40px;
+    margin-bottom: 50px;
+    padding-top:80px ;
+    
+
+}
+.writing .section i {
+    float:left;
+    width:50px;
+    height:100%;
+    padding-right: 30px;
+    color:#fff;
+    
+}
+.writing .section .words h2{
+    color:#fff;
+    margin: 0;
+
+    
+}
+.writing .section .words p{
+    color:#888;
+}
+/* contact section */
+.contact {
+    width:100%;
+    height:700px;
+    background-color: #777;
+    text-align: center;
+    padding-top: 50px;
+}
+.contact .mauris {
+    width:700px;
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top: 50px;
+    
+
+}
+.contact .mauris h2 {
+    margin:0;
+    color:#fff;
+    text-transform:uppercase ;
+    font-size: 30px;
+}
+.contact .mauris p {
+    color:#fff;
+    text-transform:uppercase ;
+   font-size: 20px;
+   text-transform: capitalize;
+   margin-top: 40px;
+    
+}
+.contact .mauris form {
+    margin-top: 40px;
+}
+.contact .mauris input{
+    display: block;
+    width: 100%;
+    padding-bottom: 18px;
+    margin-bottom: 10px;
+    border:0;
+    border-radius: 10px;
+    padding-left:10px;
+    padding-top: 15px;
+    outline: 0;
+}
+.contact .mauris textarea {
+    width:100%;
+    height:200px;
+    border: 0;
+    border-radius: 10px;
+    padding-left:10px;
+    padding-top: 12px;
+    outline: 0;
+}
+.contact .mauris button {
+    margin-top: 40px;
+    width:150px;
+    height:30px;
+    text-transform: capitalize;
+    font-size: 14px;
+    border:1px solid #fff; 
+    color:#888;
+    border-radius: 10px;
+   
+    
+}
+.contact .mauris button:hover {
+    background-color: #f3f3f3;
+    cursor: pointer;
+    border:1px solid #fff;
+    width:170px;
+}
+/* footer section */
+.footer {
+    width:100%;
+    height:200px;
+    background-color: #000;
+    color:#777;
+    padding-top:50px ;
+    text-align: center;
+}
+.footer p {
+    margin:0;
+    font-size: 25px;
+    color:#777;
+}
+.footer ul {
+    list-style: none;
+}
+.footer ul li {
+    display: inline-block;
+    padding:10px;
+    border:1px solid #777;
+    color:#777;
+}
